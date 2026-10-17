@@ -1,0 +1,32 @@
+# Maintainer: code_warlord <code_warlord@proton.me>
+pkgname=juxtopposed-vlc
+pkgver=4.0.0.r1
+pkgrel=1
+pkgdesc="VLC media player with Juxtopposed redesign (Russian UI)"
+arch=('x86_64')
+url="https://github.com/code-warlord-dev/juxtopposed-vlc"
+license=('GPL2')
+depends=()
+makedepends=('meson' 'ninja' 'gcc' 'pkgconf' 'git' 'rust')
+source=("git+https://github.com/code-warlord-dev/juxtopposed-vlc.git")
+sha256sums=('SKIP')
+
+build() {
+  cd "$srcdir/juxtopposed-vlc"
+  meson setup build --prefix=/usr -Dtests=disabled
+  ninja -C build
+}
+
+package() {
+  cd "$srcdir/juxtopposed-vlc"
+  DESTDIR="$pkgdir" ninja -C build install
+  # Desktop entry
+  install -Dm644 /dev/stdin "$pkgdir/usr/share/applications/juxtopposed-vlc.desktop" <<EOF
+[Desktop Entry]
+Name=VLC media player (Juxtopposed)
+Exec=/usr/bin/vlc %U
+Icon=vlc
+Type=Application
+Categories=AudioVideo;Player;
+EOF
+}

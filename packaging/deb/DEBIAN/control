@@ -1,0 +1,10 @@
+Package: juxtopposed-vlc
+Version: 4.0.0
+Section: video
+Priority: optional
+Architecture: amd64
+Maintainer: code_warlord <code_warlord@proton.me>
+Description: VLC media player with Juxtopposed redesign (Russian UI)
+ Plays everything, runs anywhere.
+Depends: libvlc-bin
+EOF
