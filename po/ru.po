@@ -31148,6 +31148,2461 @@ msgstr ""
 msgid "Are you sure you wish to create the stream?"
 msgstr "Вы действительно хотите создать поток?"
 
+msgid "#"
+msgstr "#"
+
+msgid "%1%"
+msgstr "%1%"
+
+msgid "%1 — %2"
+msgstr "%1 — %2"
+
+msgid "%1 %2 (%3)"
+msgstr "%1 %2 (%3)"
+
+msgid "%1 - %2 - %3 - %4"
+msgstr "%1 - %2 - %3 - %4"
+
+msgid "%1 (%2x)"
+msgstr "%1 (%x)"
+
+msgid "15 minutes"
+msgstr "15 минут"
+
+msgid "%1 elements, %2"
+msgstr "%1 элементов, %2"
+
+msgid "%1 fps"
+msgstr "%1 кадр/с"
+
+msgid "%1h"
+msgstr "%1ч"
+
+msgid "%1h %2m"
+msgstr "%1ч %2м"
+
+msgid "%1 is already used for %2. Reassign it?"
+msgstr "%1 уже используется для %2. Переназначить?"
+
+msgid "%1m"
+msgstr "%1м"
+
+msgid "%1\\n%2\\n%3"
+msgstr "%1\\n%2\\n%3"
+
+msgid "%1s"
+msgstr "%1с"
+
+msgid "%1 selected"
+msgstr "%1 выбрано"
+
+msgid "1 selected"
+msgstr "1 выбрано"
+
+msgid "%1 Videos"
+msgstr "%1 видео"
+
+msgid "%1x"
+msgstr "%1x"
+
+msgid "1x"
+msgstr "1x"
+
+msgid "30 minutes"
+msgstr "30 минут"
+
+msgid "4.00"
+msgstr "4.00"
+
+msgid "60 minutes"
+msgstr "60 минут"
+
+msgid "90 minutes"
+msgstr "90 минут"
+
+msgid "A-B Loop"
+msgstr "Петля A-B"
+
+msgid "About VLC"
+msgstr "О ВЛК"
+
+msgid "Access"
+msgstr "Доступ"
+
+msgid "Add a folder to your library to see your media here."
+msgstr "Добавьте папку в свою библиотеку, чтобы видеть здесь свои медиафайлы."
+
+msgid ""
+"Add an API key to search for and download subtitles from OpenSubtitles."
+msgstr "Добавьте ключ API для поиска и загрузки субтитров из OpenSubtitles."
+
+msgid "Add a service"
+msgstr "Добавить услугу"
+
+msgid "Add Audio Tracks"
+msgstr "Добавить аудиодорожки"
+
+msgid "Add external tracks"
+msgstr "Добавить внешние треки"
+
+msgid "Add File"
+msgstr "Добавить файл"
+
+msgid "Add files"
+msgstr "Добавить файлы"
+
+msgid "Add files to queue"
+msgstr "Добавить файлы в очередь"
+
+msgid "Add item"
+msgstr "Добавить элемент"
+
+msgid "Add media"
+msgstr "Добавить медиа"
+
+msgid "Add Network Stream"
+msgstr "Добавить сетевой поток"
+
+msgid "Add-ons"
+msgstr "Дополнения"
+
+msgid "Add-ons & Scripts"
+msgstr "Дополнения и скрипты"
+
+msgid "Add Subtitles"
+msgstr "Добавить субтитры"
+
+msgid "Add Subtitle Tracks"
+msgstr "Добавить дорожки субтитров"
+
+msgid "Add the selected media to a saved playlist, or create a new playlist."
+msgstr ""
+"Добавьте выбранный медиафайл в сохраненный список воспроизведения или "
+"создайте новый список воспроизведения."
+
+msgid "Add thumbnail"
+msgstr "Добавить миниатюру"
+
+msgid "Add to an audio-only playlist"
+msgstr "Добавить в плейлист только с аудио"
+
+msgid "Add to a playlist"
+msgstr "Добавить в плейлист"
+
+msgid "Add to a video-only playlist"
+msgstr "Добавить в плейлист только с видео"
+
+msgid "Add to favorites"
+msgstr "Добавить в избранное"
+
+msgid "Add to medialibrary"
+msgstr "Добавить в медиабиблиотеку"
+
+msgid "Add to queue"
+msgstr "Добавить в очередь"
+
+msgid "Add to Queue"
+msgstr "Добавить в очередь"
+
+msgid "Add to sidebar"
+msgstr "Добавить на боковую панель"
+
+msgid "Add to the playlist instead of replacing it"
+msgstr "Добавить в плейлист вместо его замены"
+
+msgid ""
+"Add your OpenSubtitles application API key. VLC stores it in your profile."
+msgstr ""
+"Добавьте ключ API приложения OpenSubtitles. VLC сохраняет его в вашем "
+"профиле."
+
+msgid "Advanced Subtitles"
+msgstr "Расширенные субтитры"
+
+msgid "Advanced Video"
+msgstr "Расширенное видео"
+
+msgid "album"
+msgstr "альбом"
+
+msgid "Album A-Z"
+msgstr "Альбом А-Я"
+
+msgid "Albums"
+msgstr "Альбом"
+
+msgid "Album Title"
+msgstr "Название альбома"
+
+msgid "Album Z-A"
+msgstr "Альбом Z-A"
+
+msgid "All Fields"
+msgstr "Все поля"
+
+msgid "All languages"
+msgstr "Все языки"
+
+msgid "Allow the app icon to change"
+msgstr "Разрешить изменение значка приложения"
+
+msgid "All VLC options"
+msgstr "Все варианты VLC"
+
+msgid "Alphabetic"
+msgstr "алфавитный"
+
+msgid "Always starts at:"
+msgstr "Всегда начинается с:"
+
+msgid "Antiflicker"
+msgstr "Анти-мерцание"
+
+msgid "API key"
+msgstr "API-ключ"
+
+msgid "App"
+msgstr "Приложение"
+
+msgid "Apply to files opened from the file manager"
+msgstr "Применить к файлам, открытым из файлового менеджера"
+
+msgid "Are you sure you want to delete this file?"
+msgstr "Вы уверены, что хотите удалить этот файл?"
+
+msgid "artist"
+msgstr "художник"
+
+msgid "Artist A-Z"
+msgstr "Художник А-Я"
+
+msgid "Artist banner"
+msgstr "Баннер художника"
+
+msgid "Artists"
+msgstr "Художники"
+
+msgid "Artist Z-A"
+msgstr "Художник Z-A"
+
+msgid "Artwork Info"
+msgstr "Информация об изображении"
+
+msgid "A to B Loop"
+msgstr "Петля от А до Б"
+
+msgid "Audio Defaults"
+msgstr "Звуковые настройки по умолчанию"
+
+msgid "Audio delay"
+msgstr "Задержка звука"
+
+msgid "Audio files"
+msgstr "Аудио файлы"
+
+msgid "Audio output driver"
+msgstr "Драйвер аудиовыхода"
+
+msgid "Audio track delay"
+msgstr "Задержка аудиодорожки"
+
+msgid "Audio Track Delay"
+msgstr "Задержка аудиодорожки"
+
+msgid "Audio tracks and output"
+msgstr "Аудиодорожки и вывод"
+
+msgid "Audio track synchronization"
+msgstr "Синхронизация аудиодорожек"
+
+msgid "Audio Visualizer"
+msgstr "Аудио визуализатор"
+
+msgid ""
+"Automatic matching is off in Settings. These choices apply to the current "
+"files."
+msgstr ""
+"Автоматическое сопоставление отключено в настройках. Эти варианты "
+"применяются к текущим файлам."
+
+msgid "Auto Shuffle"
+msgstr "Автоматическое перемешивание"
+
+msgid "Auto Solve"
+msgstr "Авторешение"
+
+msgid "Banding Removal Radius"
+msgstr "Радиус удаления полос"
+
+msgid "Best Available"
+msgstr "Лучшее из доступных"
+
+msgid "Blue key"
+msgstr "Синий ключ"
+
+msgid "Blur Factor"
+msgstr "Фактор размытия"
+
+msgid "Bold"
+msgstr "Смелый"
+
+msgid "Bookmark Button"
+msgstr "Кнопка закладки"
+
+msgid "Bookmark current time"
+msgstr "Добавить в закладки текущее время"
+
+msgid "Bring VLC to the front when playback starts"
+msgstr "Переместите VLC на передний план, когда начнется воспроизведение"
+
+msgid "Browse library"
+msgstr "Просмотреть библиотеку"
+
+msgid "Browse view"
+msgstr "Обзор просмотра"
+
+msgid "Buffering"
+msgstr "Буферизация"
+
+msgid "Buffering %1%"
+msgstr "Буферизация %1%"
+
+msgid "by <b>%1</b>"
+msgstr "<b>%1</b>"
+
+msgid "by <b>Unknown</b>"
+msgstr "автор: <b>Неизвестно</b>"
+
+msgid "cancel"
+msgstr "отмена"
+
+msgid "Cancel language order"
+msgstr "Отменить заказ языка"
+
+msgid "Case sensitive"
+msgstr "С учетом регистра"
+
+msgid "Casting"
+msgstr "Кастинг"
+
+msgid "Cast quality"
+msgstr "Качество актерского состава"
+
+msgid "C   E   N   T   E   R"
+msgstr "ЦЕНТР"
+
+msgid "Change API key"
+msgstr "Изменить ключ API"
+
+msgid "change playback speed"
+msgstr "изменить скорость воспроизведения"
+
+msgid "Changes are saved automatically."
+msgstr "Изменения сохраняются автоматически."
+
+msgid "Change thumbnail"
+msgstr "Изменить миниатюру"
+
+msgid "Channel:"
+msgstr "Канал:"
+
+msgid "Check for updates automatically"
+msgstr "Автоматическая проверка обновлений"
+
+msgid "Choose %1"
+msgstr "Выберите %1"
+
+msgid "Choose %1 color"
+msgstr "Выберите %1 цвет"
+
+msgid "Choose a media folder to start with"
+msgstr "Выберите медиа-папку для начала"
+
+msgid "Choose a Playlist"
+msgstr "Выберите плейлист"
+
+msgid "Choose files…"
+msgstr "Выбрать файлы…"
+
+msgid "Chorus/flanger"
+msgstr "Хорус/фланжеры"
+
+msgid "Chroma Spatial"
+msgstr "Цветность пространственная"
+
+msgid "Chroma Temporal"
+msgstr "Цветность Временная"
+
+msgid "Cipher preference"
+msgstr "Предпочтение шифрования"
+
+msgid "Clear all shortcuts for this action"
+msgstr "Удалить все ярлыки для этого действия"
+
+msgid "Clear queue"
+msgstr "Очистить очередь"
+
+msgid "Clear Recent Files"
+msgstr "Очистить последние файлы"
+
+msgid "Clear selected tracks"
+msgstr "Очистить выбранные треки"
+
+msgid "Clock jitter (ms)"
+msgstr "Тактовый джиттер (мс)"
+
+msgid "Clock reference averaging"
+msgstr "Усреднение тактового сигнала"
+
+msgid "Clone the selected profile"
+msgstr "Клонировать выбранный профиль"
+
+msgid "Close Equalizer"
+msgstr "Закрыть эквалайзер"
+
+msgid "Close navigation"
+msgstr "Закрыть навигацию"
+
+msgid "Close Panel"
+msgstr "Закрыть панель"
+
+msgid "Close queue"
+msgstr "Закрыть очередь"
+
+msgid "Close settings"
+msgstr "Закрыть настройки"
+
+msgid "Close setup"
+msgstr "Закрыть настройку"
+
+msgid "Close shortcut editor"
+msgstr "Закрыть редактор ярлыков"
+
+msgid "close video"
+msgstr "закрыть видео"
+
+msgid "Codec:"
+msgstr "Кодек:"
+
+msgid "Collapse Settings"
+msgstr "Свернуть настройки"
+
+msgid "Collect playback statistics"
+msgstr "Собирать статистику воспроизведения"
+
+msgid "Color Extraction"
+msgstr "Извлечение цвета"
+
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+msgid "Color Threshold"
+msgstr "Цветовой порог"
+
+msgid "Computer"
+msgstr "Компьютер"
+
+msgid "Configure..."
+msgstr "Настроить..."
+
+msgid "Connection timeout (ms)"
+msgstr "Таймаут соединения (мс)"
+
+msgid "Continue Watching"
+msgstr "Продолжить просмотр"
+
+msgid "Continue where you left off"
+msgstr "Продолжить с того места, где вы остановились"
+
+msgid "Continue where you left off?"
+msgstr "Продолжить с того места, где остановились?"
+
+msgid "Corrupted packets"
+msgstr "Поврежденные пакеты"
+
+msgid "Counts and size apply to this folder only."
+msgstr "Количество и размер применимы только к этой папке."
+
+msgid "Create a playlist to collect your favorite media."
+msgstr ""
+"Создайте список воспроизведения, чтобы собрать свои любимые медиафайлы."
+
+msgid "Created"
+msgstr "Созданный"
+
+msgid "Create playlist"
+msgstr "Создать плейлист"
+
+msgid "Crop %1"
+msgstr "Обрезать %1"
+
+msgid "Custom accent color"
+msgstr "Пользовательский цвет акцента"
+
+msgid "Custom aspect ratios"
+msgstr "Пользовательские соотношения сторон"
+
+msgid "Custom crop ratios"
+msgstr "Пользовательские пропорции урожая"
+
+msgid "Customize Player"
+msgstr "Настроить плеер"
+
+msgid "Cyan"
+msgstr "Голубой"
+
+msgid "Decoded audio blocks"
+msgstr "Декодированные аудиоблоки"
+
+msgid "Decoded video frames"
+msgstr "Декодированные видеокадры"
+
+msgid "Decoder"
+msgstr "Декодер"
+
+msgid "Decoding threads"
+msgstr "Расшифровка потоков"
+
+msgid "Default audio track"
+msgstr "Звуковая дорожка по умолчанию"
+
+msgid "Default optical drive"
+msgstr "Оптический привод по умолчанию"
+
+msgid "Default playback speed"
+msgstr "Скорость воспроизведения по умолчанию"
+
+msgid "Default Preset"
+msgstr "Предустановка по умолчанию"
+
+msgid "Defaults"
+msgstr "По умолчанию"
+
+msgid "Default subtitle track"
+msgstr "Дорожка субтитров по умолчанию"
+
+msgid "Delete “%1”?"
+msgstr "Удалить «%1»?"
+
+msgid "Delete File From System"
+msgstr "Удалить файл из системы"
+
+msgid "Delete Preset"
+msgstr "Удалить предустановку"
+
+msgid ""
+"Delete the current profile.\\nDeleting all profiles brings back the default "
+"styles."
+msgstr ""
+"Удалите текущий профиль.\\nУдаление всех профилей возвращает стили по "
+"умолчанию."
+
+msgid "Denoise"
+msgstr "шумоподавление"
+
+msgid "Details"
+msgstr "Подробности"
+
+msgid "Detect Dolby Surround"
+msgstr "Обнаружение Dolby Surround"
+
+msgid "Developer"
+msgstr "Разработчик"
+
+msgid "Developer mode"
+msgstr "Режим разработчика"
+
+msgid "Developer Options"
+msgstr "Параметры разработчика"
+
+msgid "Diagnostics"
+msgstr "Диагностика"
+
+msgid "Disc Number Ascending"
+msgstr "Номер диска по возрастанию"
+
+msgid "Disc Number Descending"
+msgstr "Номер диска по убыванию"
+
+msgid "Discover view"
+msgstr "Откройте для себя вид"
+
+msgid "Discs (ms)"
+msgstr "Диски (мс)"
+
+msgid "Dismiss"
+msgstr "Увольнять"
+
+msgid "Displayed video frames"
+msgstr "Отображаемые видеокадры"
+
+msgid "Done"
+msgstr "Сделанный"
+
+msgid "Do you want to restart the playback where you left off?"
+msgstr "Хотите возобновить воспроизведение с того места, где вы остановились?"
+
+msgid "Drag & Drop some content here!"
+msgstr "Перетащите сюда контент!"
+
+msgid "drag item"
+msgstr "перетащить элемент"
+
+msgid "Drag items below to add them above: "
+msgstr "Перетащите элементы ниже, чтобы добавить их выше:"
+
+msgid "Drop a file to start playing"
+msgstr "Перетащите файл, чтобы начать воспроизведение"
+
+msgid "Drop audio files or folders here"
+msgstr "Перетащите сюда аудиофайлы или папки."
+
+msgid "Drop files here, or add media from your library."
+msgstr "Перетащите сюда файлы или добавьте медиафайлы из своей библиотеки."
+
+msgid "Drop files here or select files."
+msgstr "Перетащите сюда файлы или выберите файлы."
+
+msgid "Drop frames when the system can't keep up"
+msgstr "Пропускать кадры, когда система не справляется"
+
+msgid "Drop subtitle files, folders or links here"
+msgstr "Перетащите сюда файлы субтитров, папки или ссылки."
+
+msgid "Duplicate Preset"
+msgstr "Дублировать пресет"
+
+msgid "DVD navigation"
+msgstr "DVD-навигация"
+
+msgid "Edit Audio Tracks"
+msgstr "Редактировать аудиодорожки"
+
+msgid "Edit external tracks"
+msgstr "Редактировать внешние треки"
+
+msgid "Edit Keyboard Shortcuts"
+msgstr "Редактировать сочетания клавиш"
+
+msgid "Edit playlist"
+msgstr "Редактировать плейлист"
+
+msgid "Edit Subtitle Tracks"
+msgstr "Редактировать дорожки субтитров"
+
+msgid "e.g., Favorite TV Channels"
+msgstr "например, любимые телеканалы"
+
+msgid "e.g., Favorite Videos"
+msgstr "например, Любимые видео"
+
+msgid "e.g., https://www.example.com/stream.avi"
+msgstr "например, http://www.example.tsum/stream.avi"
+
+msgid "Embedded Sub Format"
+msgstr "Встроенный подформат"
+
+msgid "Embedded Tracks"
+msgstr "Встроенные треки"
+
+msgid "Empty view"
+msgstr "Пустой вид"
+
+msgid "Enable subtitles"
+msgstr "Включить субтитры"
+
+msgid "Encoding preset"
+msgstr "Предустановка кодировки"
+
+msgid "Enqueue all"
+msgstr "Поставить все в очередь"
+
+msgid "Enqueue as album"
+msgstr "Поставить в очередь как альбом"
+
+msgid "Enter one link on each line."
+msgstr "Введите по одной ссылке в каждую строку."
+
+msgid "error popup"
+msgstr "всплывающее окно с ошибкой"
+
+msgid "Errors only"
+msgstr "Только ошибки"
+
+msgid "Expand Settings"
+msgstr "Развернуть настройки"
+
+msgid "Extended settings"
+msgstr "Расширенные настройки"
+
+msgid "External Tracks"
+msgstr "Внешние треки"
+
+msgid "Favorite"
+msgstr "Любимый"
+
+msgid "Favorites"
+msgstr "Избранное"
+
+msgid "Fetch titles and artwork from the internet"
+msgstr "Получение названий и иллюстраций из Интернета"
+
+msgid "Fetch titles and cover art from the internet"
+msgstr "Загрузите названия и обложки из Интернета."
+
+msgid "File for these tracks"
+msgstr "Файл для этих треков"
+
+msgid "File modified"
+msgstr "Файл изменен"
+
+msgid "File Name:"
+msgstr "Имя файла:"
+
+msgid "File name matching"
+msgstr "Соответствие имени файла"
+
+msgid "File name prefix"
+msgstr "Префикс имени файла"
+
+msgid "Files & Discs"
+msgstr "Файлы и диски"
+
+msgid "File size"
+msgstr "Размер файла"
+
+msgid "Files (ms)"
+msgstr "Файлы (мс)"
+
+msgid "Film Grain Variance"
+msgstr "Разница в зернистости пленки"
+
+msgid "filter"
+msgstr "фильтр"
+
+msgid "Find artist"
+msgstr "Найти исполнителя"
+
+msgid "Find the full list in the menu."
+msgstr "Полный список ищите в меню."
+
+msgid "Fit Inside Window"
+msgstr "Подходит для внутреннего окна"
+
+msgid "Fit Window Height"
+msgstr "Подогнать высоту окна"
+
+msgid "Fit Window Width"
+msgstr "Подогнать ширину окна"
+
+msgid "Flip"
+msgstr "Подбросить"
+
+msgid "Flip: %1"
+msgstr "Перевернуть: %1"
+
+msgid "Folder:"
+msgstr "Папка:"
+
+msgid "Folder Info"
+msgstr "Информация о папке"
+
+msgid "Folders"
+msgstr "Папки"
+
+msgid "FPS:"
+msgstr "FPS:"
+
+msgid "Framing"
+msgstr "Обрамление"
+
+msgid "Frequently Listened Artists"
+msgstr "Часто слушаемые исполнители"
+
+msgid "Frequently Visited Folders"
+msgstr "Часто посещаемые папки"
+
+msgid "Frequently Visited Playlists"
+msgstr "Часто посещаемые плейлисты"
+
+msgid "From Computer"
+msgstr "С компьютера"
+
+msgid "From Link"
+msgstr "По ссылке"
+
+msgid "From OpenSubtitles"
+msgstr "Из OpenSubtitles"
+
+msgid "fullscreen"
+msgstr "полноэкранный"
+
+msgid "Fullscreen controls opacity"
+msgstr "Полноэкранное управление непрозрачностью"
+
+msgid "Fullscreen controls sensitivity"
+msgstr "Полноэкранное управление чувствительностью"
+
+msgid " gain in dB"
+msgstr "усиление в дБ"
+
+msgid "Gain in dB (−20 to 20)"
+msgstr "Усиление в дБ (от –20 до 20)"
+
+msgid "Game Mode"
+msgstr "Игровой режим"
+
+msgid "Genres"
+msgstr "Жанры"
+
+msgid "Genres - %1"
+msgstr "Жанры - %1"
+
+msgid "Get an API key"
+msgstr "Получить ключ API"
+
+msgid "Get cover art and media information online"
+msgstr "Получите обложки и информацию для СМИ онлайн"
+
+msgid "Give VLC real-time priority"
+msgstr "Дайте VLC приоритет в реальном времени"
+
+msgid "Global Hotkey"
+msgstr "Глобальная горячая клавиша"
+
+msgid "Global Settings"
+msgstr "Глобальные настройки"
+
+msgid "Go to Source"
+msgstr "Перейти к источнику"
+
+msgid "Gradient mode"
+msgstr "Градиентный режим"
+
+msgid "Green key"
+msgstr "Зеленый ключ"
+
+msgid "Grid View"
+msgstr "Представление в виде сетки"
+
+msgid "HDR"
+msgstr "HDR"
+
+msgid "Hide Advanced Options"
+msgstr "Скрыть дополнительные параметры"
+
+msgid "Hide after"
+msgstr "Скрыть после"
+
+msgid "Hide all VLC options"
+msgstr "Скрыть все параметры VLC"
+
+msgid "Hide library"
+msgstr "Скрыть библиотеку"
+
+msgid "Hide mini player"
+msgstr "Скрыть мини-плеер"
+
+msgid "High Resolution Time"
+msgstr "Время высокого разрешения"
+
+msgid "History"
+msgstr "История"
+
+msgid "Home View"
+msgstr "Домашний вид"
+
+msgid "Horizontal scroll"
+msgstr "Горизонтальная прокрутка"
+
+msgid "Ignore file types"
+msgstr "Игнорировать типы файлов"
+
+msgid "Image Delay"
+msgstr "Задержка изображения"
+
+msgid "Image File"
+msgstr "Файл изображения"
+
+msgid "Image Overlay"
+msgstr "Наложение изображения"
+
+msgid "Include audio"
+msgstr "Включить аудио"
+
+msgid "Include debug messages in the system log"
+msgstr "Включить отладочные сообщения в системный журнал"
+
+msgid "Include video"
+msgstr "Включить видео"
+
+msgid "Indexing Medias (%1%)"
+msgstr "Индексирование медиа (%1%)"
+
+msgid "Index key"
+msgstr "Индексный ключ"
+
+msgid "Installing"
+msgstr "Установка"
+
+msgid "Install services"
+msgstr "Установить услуги"
+
+msgid "Interface language"
+msgstr "Язык интерфейса"
+
+msgid "Items"
+msgstr "Предметы"
+
+msgid "Keep folder matches"
+msgstr "Сохранять совпадения папок"
+
+msgid "Keep the file path empty to use the text above."
+msgstr "Оставьте путь к файлу пустым, чтобы использовать текст выше."
+
+msgid "Keep window above other windows"
+msgstr "Держите окно выше других окон"
+
+msgid "Keyboard Shortcuts"
+msgstr "Сочетания клавиш"
+
+msgid "Language:"
+msgstr "Язык:"
+
+msgid "Language names or codes, separated by commas"
+msgstr "Названия или коды языков, разделенные запятыми."
+
+msgid "Languages and tracks"
+msgstr "Языки и треки"
+
+msgid "Last.fm password"
+msgstr "Пароль Last.fm"
+
+msgid "Last.fm submission URL"
+msgstr "URL-адрес отправки Last.fm"
+
+msgid "Last.fm username"
+msgstr "Имя пользователя Last.fm"
+
+msgid "Last played date"
+msgstr "Дата последней игры"
+
+msgid "Late video frames"
+msgstr "Поздние кадры видео"
+
+msgid "Learn the basic keyboard shortcuts."
+msgstr "Изучите основные сочетания клавиш."
+
+msgid "L   E   F   T"
+msgstr "ЛЕВЫЙ"
+
+msgid "Library settings"
+msgstr "Настройки библиотеки"
+
+msgid "Light"
+msgstr "Свет"
+
+msgid "Link left and right"
+msgstr "Ссылка слева и справа"
+
+msgid "Link top and bottom"
+msgstr "Свяжите верх и низ"
+
+msgid "Listen Again"
+msgstr "Послушай еще раз"
+
+msgid "List/Grid"
+msgstr "Список/Сетка"
+
+msgid "Live capture (ms)"
+msgstr "Захват в реальном времени (мс)"
+
+msgid "Load add-ons on startup"
+msgstr "Загружать дополнения при запуске"
+
+msgid "Loading files…"
+msgstr "Загрузка файлов…"
+
+msgid "Loading folder…"
+msgstr "Загрузка папки…"
+
+msgid "Loading playlist…"
+msgstr "Загрузка плейлиста…"
+
+msgid "Loading Subtitles"
+msgstr "Загрузка субтитров"
+
+msgid "Load matching .mkv files from the same folder"
+msgstr "Загрузите соответствующие файлы .mkv из той же папки."
+
+msgid "Load subtitle files automatically"
+msgstr "Автоматически загружать файлы субтитров"
+
+msgid "Load subtitles from these folders"
+msgstr "Загрузить субтитры из этих папок"
+
+msgid "Local"
+msgstr "Местный"
+
+msgid "Local top bar"
+msgstr "Местная верхняя панель"
+
+msgid "Log details"
+msgstr "Подробности журнала"
+
+msgid "Log file"
+msgstr "Файл журнала"
+
+msgid "Logo Erase"
+msgstr "Стереть логотип"
+
+msgid "Long skip"
+msgstr "Длинный пропуск"
+
+msgid "Lost audio blocks"
+msgstr "Потеряны аудиоблоки"
+
+msgid "Lost video frames"
+msgstr "Потерянные видеокадры"
+
+msgid "Loudness"
+msgstr "Громкость"
+
+msgid "Luma Spatial"
+msgstr "Лума Пространственная"
+
+msgid "Luma Temporal"
+msgstr "Временная яркость"
+
+msgid "Main display"
+msgstr "Главный дисплей"
+
+msgid "Main interface"
+msgstr "Основной интерфейс"
+
+msgid "Mark as seen"
+msgstr "Отметить как просмотренное"
+
+msgid "Mark as unseen"
+msgstr "Отметить как невидимое"
+
+msgid "Mark as Unwatched"
+msgstr "Отметить как непросмотренное"
+
+msgid "Mark as Watched"
+msgstr "Отметить как просмотренное"
+
+msgid "Mask File"
+msgstr "Файл маски"
+
+msgid "Matching tracks…"
+msgstr "Совпадающие треки…"
+
+msgid "Maximize"
+msgstr "Максимизировать"
+
+msgid "maximize player"
+msgstr "максимизировать игрока"
+
+msgid "Maximum volume"
+msgstr "Большой объем"
+
+msgid "Media"
+msgstr "СМИ"
+
+msgid "Media cover"
+msgstr "Медиа-обложка"
+
+msgid "Media folder"
+msgstr "Медиа-папка"
+
+msgid "Media view"
+msgstr "Медиа-представление"
+
+msgid "Medium skip"
+msgstr "Средний пропуск"
+
+msgid "Metadata & Artwork"
+msgstr "Метаданные и иллюстрации"
+
+msgid "Method"
+msgstr "Метод"
+
+msgid "Modified"
+msgstr "Модифицированный"
+
+msgid "Monospace font"
+msgstr "Шрифт MPV"
+
+msgid "More library actions"
+msgstr "Дополнительные действия с библиотекой"
+
+msgid "More options"
+msgstr "Больше возможностей"
+
+msgid "Most played first"
+msgstr "Чаще всего играют первыми"
+
+msgid "Most visited first"
+msgstr "Самые посещаемые в первую очередь"
+
+msgid "Motion Blur"
+msgstr "Размытие в движении"
+
+msgid "Mouse"
+msgstr "Мышь"
+
+msgid "Mouse, Keyboard & Remote Controls"
+msgstr "Мышь, клавиатура и пульты дистанционного управления"
+
+msgid "Move earlier"
+msgstr "Переехать раньше"
+
+msgid "Move later"
+msgstr "Переехать позже"
+
+msgid "Move playlist item"
+msgstr "Переместить элемент плейлиста"
+
+msgid "Move queue item"
+msgstr "Переместить элемент очереди"
+
+msgid "Music view"
+msgstr "Просмотр музыки"
+
+msgid "Navigation Box"
+msgstr "Навигационный блок"
+
+msgid "Navigation Buttons"
+msgstr "Кнопки навигации"
+
+msgid "Negate Colors"
+msgstr "Отрицательные цвета"
+
+msgid "Network Connections & Security"
+msgstr "Сетевые подключения и безопасность"
+
+msgid "Network streams"
+msgstr "Сетевые потоки"
+
+msgid "Network streams (ms)"
+msgstr "Сетевые потоки (мс)"
+
+msgid "Network URL"
+msgstr "Сетевой URL-адрес"
+
+msgid "Network URLs"
+msgstr "Сетевые URL-адреса"
+
+msgid "Never remember items matching"
+msgstr "Никогда не запоминайте совпадения предметов"
+
+msgid "Newest First"
+msgstr "Новейшие сначала"
+
+msgid "New Music"
+msgstr "Новая музыка"
+
+msgid "New Preset"
+msgstr "Новый пресет"
+
+msgid "New Videos"
+msgstr "Новые видео"
+
+msgid "Next Frame"
+msgstr "Следующий кадр"
+
+msgid "Night mode"
+msgstr "Ночной режим"
+
+msgid "No albums found\\nPlease try adding sources"
+msgstr "Альбомы не найдены\\Попробуйте добавить источники"
+
+msgid "No artist"
+msgstr "Нет художника"
+
+msgid "No artists found\\nPlease try adding sources"
+msgstr "Исполнители не найдены\\nПопробуйте добавить источники"
+
+msgid "No content yet"
+msgstr "Пока нет контента"
+
+msgid "No genres found\\nPlease try adding sources"
+msgstr "Жанры не найдены\\Попробуйте добавить источники"
+
+msgid "No information available"
+msgstr "Нет доступной информации"
+
+msgid "No languages found"
+msgstr "Языки не найдены"
+
+msgid "No matching shortcuts"
+msgstr "Нет подходящих ярлыков"
+
+msgid "No media found"
+msgstr "Носители не найдены"
+
+msgid "No media found\\nPlease try adding sources"
+msgstr "Носители не найдены\\nПопробуйте добавить источники"
+
+msgid "No media matches your search."
+msgstr "Ни один медиафайл не соответствует вашему запросу."
+
+msgid "No music in your history."
+msgstr "В вашей истории нет музыки."
+
+msgid "No network shares found"
+msgstr "Сетевые ресурсы не найдены"
+
+msgid "No playlists found"
+msgstr "Плейлисты не найдены"
+
+msgid "No playlists match your search."
+msgstr "Нет плейлистов, соответствующих вашему запросу."
+
+msgid "No recent files"
+msgstr "Нет последних файлов"
+
+msgid "No results"
+msgstr "Нет результатов"
+
+msgid "Normalize loudness"
+msgstr "Нормализовать громкость"
+
+msgid "No subtitles found. Try another title or language."
+msgstr "Субтитры не найдены. Попробуйте другое название или язык."
+
+msgid "Nothing to see here, go back."
+msgstr "Здесь не на что смотреть, возвращайтесь."
+
+msgid "Notifications and System Tray"
+msgstr "Уведомления и системный трей"
+
+msgid "No tracks available"
+msgstr "Нет доступных треков"
+
+msgid "No tracks found\\nPlease try adding sources"
+msgstr "Треки не найдены\\nПопробуйте добавить источники"
+
+msgid "No video found\\nPlease try adding sources"
+msgstr "Видео не найдено\\nПопробуйте добавить источники"
+
+msgid "No videos in your history."
+msgstr "В вашей истории нет видео."
+
+msgid "Number files sequentially"
+msgstr "Нумеровать файлы последовательно"
+
+msgid "OFF"
+msgstr "ВЫКЛЮЧЕННЫЙ"
+
+msgid "Ok"
+msgstr "Хорошо"
+
+msgid "Oldest First"
+msgstr "Сначала самый старый"
+
+msgid "ON"
+msgstr "НА"
+
+msgid "Online media information"
+msgstr "Информация онлайн-СМИ"
+
+msgid "Online Subtitles"
+msgstr "Онлайн субтитры"
+
+msgid "Only allow one VLC window"
+msgstr "Разрешить только одно окно VLC"
+
+msgid "On-Screen Messages"
+msgstr "Сообщения на экране"
+
+msgid "Open Advanced Settings"
+msgstr "Открыть дополнительные настройки"
+
+msgid "Open a library folder to see it here."
+msgstr "Откройте папку библиотеки, чтобы увидеть ее здесь."
+
+msgid "Open a network stream to add it here."
+msgstr "Откройте сетевой поток, чтобы добавить его сюда."
+
+msgid "Open a playlist to see it here."
+msgstr "Откройте плейлист, чтобы увидеть его здесь."
+
+msgid "Open Capture Device"
+msgstr "Открыть устройство захвата"
+
+msgid "Open compact library"
+msgstr "Открытая компактная библиотека"
+
+msgid "Open configurations folder"
+msgstr "Открыть папку с конфигурациями"
+
+msgid "Open Containing Folder"
+msgstr "Открыть содержащую папку"
+
+msgid "Open Disc"
+msgstr "Открытый диск"
+
+msgid "Open Equalizer"
+msgstr "Открыть эквалайзер"
+
+msgid "Open File(s)"
+msgstr "Открыть файл(ы)"
+
+msgid "Open full library"
+msgstr "Открыть полную библиотеку"
+
+msgid "Open fullscreen on"
+msgstr "Открыть полноэкранный режим вкл."
+
+msgid "Opening Files"
+msgstr "Открытие файлов"
+
+msgid "Open Location from clipboard"
+msgstr "Открыть местоположение из буфера обмена"
+
+msgid "Open media"
+msgstr "Открытые СМИ"
+
+msgid "Open media folder"
+msgstr "Открыть медиа-папку"
+
+msgid "Open Multiple Files"
+msgstr "Открыть несколько файлов"
+
+msgid "Open Network Stream"
+msgstr "Открытый сетевой поток"
+
+msgid "Open player"
+msgstr "Открыть плеер"
+
+msgid "OpenSubtitles is not set up. Add an API key to use this source."
+msgstr ""
+"OpenSubtitles не настроен. Добавьте ключ API, чтобы использовать этот "
+"источник."
+
+msgid "OpenSubtitles setup"
+msgstr "Настройка OpenSubtitles"
+
+msgid ""
+"OpenSubtitles uses the app key. Downloads have a daily limit for each IP "
+"address."
+msgstr ""
+"OpenSubtitles использует ключ приложения. Загрузки имеют дневной лимит для "
+"каждого IP-адреса."
+
+msgid "OpenSubtitles uses your saved API key."
+msgstr "OpenSubtitles использует ваш сохраненный ключ API."
+
+msgid "Orange"
+msgstr "Апельсин"
+
+msgid "Or create a new playlist"
+msgstr "Или создайте новый плейлист"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Other bindings: %1"
+msgstr "Другие привязки: %1"
+
+msgid "Other files"
+msgstr "Другие файлы"
+
+msgid "Output Device"
+msgstr "Устройство вывода"
+
+msgid "Parent locations"
+msgstr "Родительские местоположения"
+
+msgid "Pass compressed audio to the receiver"
+msgstr "Передача сжатого звука на ресивер"
+
+msgid "Paste a direct subtitle file link"
+msgstr "Вставьте прямую ссылку на файл субтитров"
+
+msgid "Paste a direct subtitle file link, then select Add."
+msgstr "Вставьте прямую ссылку на файл субтитров, затем выберите «Добавить»."
+
+msgid "Paste or write the URL here"
+msgstr "Вставьте или напишите URL-адрес здесь"
+
+msgid "Path:"
+msgstr "Путь:"
+
+msgid "Pause video when window is minimized"
+msgstr "Пауза видео, когда окно свернуто"
+
+msgid "Pause when another app uses audio"
+msgstr "Пауза, когда другое приложение использует звук"
+
+msgid "Performance"
+msgstr "Производительность"
+
+msgid "Performance Settings"
+msgstr "Настройки производительности"
+
+msgid "Piece Rotation"
+msgstr "Вращение фигур"
+
+msgid "Piece Size"
+msgstr "Размер детали"
+
+msgid "Pink"
+msgstr "Розовый"
+
+msgid "Pitch shift"
+msgstr "Сдвиг высоты тона"
+
+msgid "Play all"
+msgstr "Воспроизвести все"
+
+msgid "Play as album"
+msgstr "Воспроизвести как альбом"
+
+msgid "Playback Controls"
+msgstr "Элементы управления воспроизведением"
+
+msgid "Playback Preferences"
+msgstr "Настройки воспроизведения"
+
+msgid "Playback settings"
+msgstr "Настройки воспроизведения"
+
+msgid "Playback Statistics"
+msgstr "Статистика воспроизведения"
+
+msgid "Played audio blocks"
+msgstr "Воспроизводимые аудиоблоки"
+
+msgid "Player"
+msgstr "Игрок"
+
+msgid "Player controls"
+msgstr "Управление игроком"
+
+msgid "Player topbar"
+msgstr "Игрок с мячом"
+
+msgid "Playing"
+msgstr "Играя"
+
+msgid "Playlist Details"
+msgstr "Подробности плейлиста"
+
+msgid "Playlist media"
+msgstr "Медиа-плейлисты"
+
+msgid "Playlist media list"
+msgstr "Список медиа-плейлистов"
+
+msgid "Playlist name"
+msgstr "Название плейлиста"
+
+msgid "Playlist Name (optional)"
+msgstr "Название плейлиста (необязательно)"
+
+msgid "Playlist order"
+msgstr "Порядок плейлистов"
+
+msgid "Playlists"
+msgstr "Плейлисты"
+
+msgid "Playlists, Folders & Files"
+msgstr "Списки воспроизведения, папки и файлы"
+
+msgid "Play locally while streaming"
+msgstr "Играйте локально во время потоковой передачи"
+
+msgid "Play music to see artists here."
+msgstr "Включайте музыку, чтобы увидеть исполнителей здесь."
+
+msgid "play/pause"
+msgstr "воспроизведение/пауза"
+
+msgid "Play / Pause on release"
+msgstr "Воспроизведение/пауза при выпуске"
+
+msgid "Play queue"
+msgstr "Играть в очередь"
+
+msgid "Play video as desktop wallpaper"
+msgstr "Воспроизведение видео в качестве обоев рабочего стола"
+
+msgid "Play video inside main window"
+msgstr "Воспроизвести видео в главном окне"
+
+msgid "Please enter the new profile name:"
+msgstr "Пожалуйста, введите новое имя профиля:"
+
+msgid "Popup duration"
+msgstr "Продолжительность всплывающего окна"
+
+msgid "Position in the window"
+msgstr "Позиция в окне"
+
+msgid "Preferred audio language"
+msgstr "Предпочитаемый язык аудио"
+
+msgid "Preferred language"
+msgstr "Предпочитаемый язык"
+
+msgid "Preferred menu language"
+msgstr "Предпочитаемый язык меню"
+
+msgid "Preferred video quality"
+msgstr "Предпочтительное качество видео"
+
+msgid "Preset actions for %1"
+msgstr "Предустановленные действия для %1"
+
+msgid "Preset name"
+msgstr "Имя предустановки"
+
+msgid "Presets:"
+msgstr "Пресеты:"
+
+msgid "Press a shortcut…"
+msgstr "Нажмите ярлык…"
+
+msgid "Preview Size"
+msgstr "Размер предварительного просмотра"
+
+msgid "Previous Frame"
+msgstr "Предыдущий кадр"
+
+msgid "Primary subtitle delay"
+msgstr "Первичная задержка субтитров"
+
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+msgid "Privacy Settings"
+msgstr "Настройки конфиденциальности"
+
+msgid "Processing..."
+msgstr "Обработка..."
+
+msgid "Profile %1"
+msgstr "Профиль %1"
+
+msgid "Profile (%1)"
+msgstr "Профиль (%1)"
+
+msgid "Profiles"
+msgstr "Профили"
+
+msgid "Program Button"
+msgstr "Кнопка программы"
+
+msgid "Progress"
+msgstr "Прогресс"
+
+msgid "Properties & Metadata"
+msgstr "Свойства и метаданные"
+
+msgid "Proxy"
+msgstr "Прокси"
+
+msgid "Queue"
+msgstr "Очередь"
+
+msgid "Queue views"
+msgstr "Просмотры очереди"
+
+msgid "Read and write"
+msgstr "Читай и пиши"
+
+msgid "Read file metadata automatically"
+msgstr "Автоматическое чтение метаданных файла"
+
+msgid "Reading subtitle times…"
+msgstr "Чтение времени субтитров…"
+
+msgid "Read only"
+msgstr "Только чтение"
+
+msgid "Recent"
+msgstr "Недавний"
+
+msgid "Recent file history is off"
+msgstr "История последних файлов отключена"
+
+msgid "Recent files"
+msgstr "Последние файлы"
+
+msgid "Recent files need the media library."
+msgstr "Недавним файлам нужна медиатека."
+
+msgid "Re-check"
+msgstr "Перепроверить"
+
+msgid "Reconnect automatically"
+msgstr "Автоматическое повторное подключение"
+
+msgid "record"
+msgstr "записывать"
+
+msgid "Record global shortcut for %1"
+msgstr "Записать глобальный ярлык для %1"
+
+msgid "Recording, Casting & Streaming Out"
+msgstr "Запись, кастинг и потоковая трансляция"
+
+msgid "Record shortcut for %1"
+msgstr "Ярлык записи для %1"
+
+msgid "Record without re-encoding when possible"
+msgstr "Запись без перекодирования, если это возможно"
+
+msgid "Red key"
+msgstr "Красный ключ"
+
+msgid "Refresh Interval"
+msgstr "Интервал обновления"
+
+msgid "Refresh output devices"
+msgstr "Обновить устройства вывода"
+
+msgid "Release Year"
+msgstr "Год выпуска"
+
+msgid "Remember last volume"
+msgstr "Вспомни последний том"
+
+msgid "Remember the playback position"
+msgstr "Запомните позицию воспроизведения"
+
+msgid "Remotes"
+msgstr "Пульты"
+
+msgid "Remove %1"
+msgstr "Удалить %1"
+
+msgid "Remove bookmark"
+msgstr "Удалить закладку"
+
+msgid "Remove folder matches"
+msgstr "Удалить совпадения папок"
+
+msgid "Remove from favorites"
+msgstr "Удалить из избранного"
+
+msgid "Remove from medialibrary"
+msgstr "Удалить из медиабиблиотеки"
+
+msgid "Remove from playlist"
+msgstr "Удалить из плейлиста"
+
+msgid "Remove from queue"
+msgstr "Удалить из очереди"
+
+msgid "Remove from sidebar"
+msgstr "Удалить с боковой панели"
+
+msgid "Remove key"
+msgstr "Удалить ключ"
+
+msgid "Remove thumbnail"
+msgstr "Удалить миниатюру"
+
+msgid "Rename Preset"
+msgstr "Переименовать пресет"
+
+msgid "Render"
+msgstr "Оказывать"
+
+msgid "Renderer Button"
+msgstr "Кнопка рендеринга"
+
+msgid "Repair damaged AVI files"
+msgstr "Восстановить поврежденные файлы AVI"
+
+msgid "Replay gain preamp"
+msgstr "Предусилитель усиления повтора"
+
+msgid "Resampler"
+msgstr "Ресемплер"
+
+msgid "Reset %1"
+msgstr "Сбросить %1"
+
+msgid "Reset all settings"
+msgstr "Сбросить все настройки"
+
+msgid "Reset all shortcuts"
+msgstr "Сбросить все ярлыки"
+
+msgid "Reset to default"
+msgstr "Сбросить настройки по умолчанию"
+
+msgid "Resize window to fit video"
+msgstr "Изменить размер окна в соответствии с видео"
+
+msgid "Restore window"
+msgstr "Окно восстановления"
+
+msgid "Resume dialog"
+msgstr "Возобновить диалог"
+
+msgid "Resync"
+msgstr "Повторная синхронизация"
+
+msgid "Retry"
+msgstr "Повторить попытку"
+
+msgid "Reverse order"
+msgstr "Обратный порядок"
+
+msgid "R   I   G   H   T"
+msgstr "ВЕРНО"
+
+msgid "Right click on a media\\nto add it to a playlist"
+msgstr ""
+"Щелкните правой кнопкой мыши по медиафайлу,\\nчтобы добавить его в список "
+"воспроизведения."
+
+msgid "Save a log"
+msgstr "Сохранить журнал"
+
+msgid "Saved in the VLC library"
+msgstr "Сохранено в библиотеке VLC."
+
+msgid "Save password"
+msgstr "Сохранить пароль"
+
+msgid "Save queue to file"
+msgstr "Сохранить очередь в файл"
+
+msgid "Save recordings to"
+msgstr "Сохраняйте записи в"
+
+msgid "Save snapshots to"
+msgstr "Сохраняйте снимки в"
+
+msgid "Save the playlist with this name and thumbnail."
+msgstr "Сохраните плейлист с этим именем и миниатюрой."
+
+msgid "Save these links in a playlist with this name."
+msgstr "Сохраните эти ссылки в плейлисте с этим именем."
+
+msgid "Saving…"
+msgstr "Сохранение…"
+
+msgid "Scale video to the window"
+msgstr "Масштабировать видео в окно"
+
+msgid "Scanning %1"
+msgstr "Сканирование %1"
+
+msgid "Score: %1/5  Downloads: %2"
+msgstr "Оценка: %1/5 Загрузки: %2"
+
+msgid "Scroll wheel"
+msgstr "Колесо прокрутки"
+
+msgid "SDR to HDR"
+msgstr "SDR в HDR"
+
+msgid "Search fields"
+msgstr "Поля поиска"
+
+msgid "Searching subtitles…"
+msgstr "Поиск субтитров…"
+
+msgid "Search Keyboard Shortcuts…"
+msgstr "Поиск сочетаний клавиш…"
+
+msgid "Search languages"
+msgstr "Поиск языков"
+
+msgid "Search library"
+msgstr "Поиск в библиотеке"
+
+msgid "Search playlists"
+msgstr "Поиск плейлистов"
+
+msgid "Search results"
+msgstr "Результаты поиска"
+
+msgid "Search subtitles"
+msgstr "Поиск субтитров"
+
+msgid "Secondary subtitle delay"
+msgstr "Вторичная задержка субтитров"
+
+msgid "Security"
+msgstr "Безопасность"
+
+msgid "See All"
+msgstr "Посмотреть все"
+
+msgid "Seek"
+msgstr "Искать"
+
+msgid "Seeking"
+msgstr "Ищу"
+
+msgid "Seek precisely"
+msgstr "Ищите точно"
+
+msgid "Seek (reversed)"
+msgstr "Искать (перевернутое)"
+
+msgid "Select %1"
+msgstr "Выберите %1"
+
+msgid "Select a file, then select the tracks for that file."
+msgstr "Выберите файл, затем выберите дорожки для этого файла."
+
+msgid "Select a folder or choose track files from your computer."
+msgstr "Выберите папку или выберите файлы треков на своем компьютере."
+
+msgid "Select a subtitle track to show its times."
+msgstr "Выберите дорожку с субтитрами, чтобы показать ее время."
+
+msgid "Select files"
+msgstr "Выберите файлы"
+
+msgid "Select Files"
+msgstr "Выберите файлы"
+
+msgid "Select + to save the current time."
+msgstr "Выберите +, чтобы сохранить текущее время."
+
+msgid "Select tracks"
+msgstr "Выбрать треки"
+
+msgid "Select tracks for %1"
+msgstr "Выбрать треки для %1"
+
+msgid "Select your preferred theme and color."
+msgstr "Выберите предпочитаемую тему и цвет."
+
+msgid "Sepia Intensity"
+msgstr "Интенсивность сепии"
+
+msgid "Set the maximum resolution for the next video."
+msgstr "Установите максимальное разрешение для следующего видео."
+
+msgid "Set up OpenSubtitles"
+msgstr "Настройте OpenSubtitles"
+
+msgid "Sharpen Sigma"
+msgstr "Резкость Сигмы"
+
+msgid "Shortcut already in use"
+msgstr "Ярлык уже используется"
+
+msgid "Short skip"
+msgstr "Короткий пропуск"
+
+msgid "Show a popup when the track changes"
+msgstr "Показывать всплывающее окно при смене трека"
+
+msgid "Show a preview after capture"
+msgstr "Показать предварительный просмотр после захвата"
+
+msgid "Show a system tray icon"
+msgstr "Показать значок на панели задач"
+
+msgid "Show confirmation and error dialogs"
+msgstr "Показывать диалоговые окна подтверждения и ошибок"
+
+msgid "Show controls in fullscreen"
+msgstr "Показать элементы управления в полноэкранном режиме"
+
+msgid "Show cover art in the window when playing audio"
+msgstr "Показывать обложку в окне при воспроизведении звука"
+
+msgid "Show Details"
+msgstr "Показать детали"
+
+msgid "Show feedback for shortcuts"
+msgstr "Показать отзыв о ярлыках"
+
+msgid "Show filename for"
+msgstr "Показать имя файла для"
+
+msgid "Show filename when a video starts"
+msgstr "Показывать имя файла при запуске видео"
+
+msgid "Show in File Explorer"
+msgstr "Показать в проводнике"
+
+msgid "Show library"
+msgstr "Показать библиотеку"
+
+msgid "Show navigation menu"
+msgstr "Показать меню навигации"
+
+msgid "Show Preferences"
+msgstr "Показать настройки"
+
+msgid "Show Statistics"
+msgstr "Показать статистику"
+
+msgid "Show subtitles 0.1 seconds earlier"
+msgstr "Показывать субтитры на 0,1 секунды раньше"
+
+msgid "Show subtitles 0.1 seconds later"
+msgstr "Показать субтитры через 0,1 секунды"
+
+msgid "Show the file browser inside the open dialog"
+msgstr "Показать файловый браузер в открытом диалоговом окне"
+
+msgid "Show the file name in the title bar"
+msgstr "Показывать имя файла в строке заголовка"
+
+msgid "Show the playlist as a tree"
+msgstr "Показать список воспроизведения в виде дерева"
+
+msgid "Show window decorations"
+msgstr "Покажите оформление окон"
+
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+msgid "Silent"
+msgstr "Тихий"
+
+msgid "Single click on the video"
+msgstr "Один клик по видео"
+
+msgid "Size of files"
+msgstr "Размер файлов"
+
+msgid "Size Values"
+msgstr "Значения размера"
+
+msgid "Skin"
+msgstr "Кожа"
+
+msgid "Skin file"
+msgstr "Файл скина"
+
+msgid "Skip Amounts"
+msgstr "Пропустить суммы"
+
+msgid "Skip the H.264 loop filter"
+msgstr "Пропустить петлевой фильтр H.264."
+
+msgid "Sleep Timer"
+msgstr "Таймер сна"
+
+msgid "Smooth Playback"
+msgstr "Плавное воспроизведение"
+
+msgid "Snapshots"
+msgstr "Снимки"
+
+msgid "Softening Size"
+msgstr "Размер смягчения"
+
+msgid "Sort options"
+msgstr "Варианты сортировки"
+
+msgid "Sort queue"
+msgstr "Сортировать очередь"
+
+msgid "Sound Heard"
+msgstr "Звук слышен"
+
+msgid "Sound Spotted"
+msgstr "Звук замечен"
+
+msgid "Speaker setup"
+msgstr "Настройка динамиков"
+
+msgid "Speed"
+msgstr "Скорость"
+
+msgid "Start from the beginning"
+msgstr "Начать с самого начала"
+
+msgid "Start in compact mode"
+msgstr "Начните в компактном режиме"
+
+msgid "Start minimized to the tray"
+msgstr "Начать сворачивать в трей"
+
+msgid "Start playing as soon as a file opens"
+msgstr "Начинайте играть, как только откроется файл"
+
+msgid "Startup"
+msgstr "Запускать"
+
+msgid "Startup volume"
+msgstr "Начальная громкость"
+
+msgid "Startup volume in percent"
+msgstr "Объем запуска в процентах"
+
+msgid "Start videos in fullscreen"
+msgstr "Запускать видео в полноэкранном режиме"
+
+msgid "Step back"
+msgstr "Шаг назад"
+
+msgid "Stereo channel mapping"
+msgstr "Сопоставление стереоканалов"
+
+msgid "Stereo widening"
+msgstr "Стерео расширение"
+
+msgid "Stop after each item"
+msgstr "Останавливайтесь после каждого пункта"
+
+msgid "Stop the screensaver during playback"
+msgstr "Остановить заставку во время воспроизведения"
+
+msgid "Subfolders"
+msgstr "Подпапки"
+
+msgid "Submit played tracks to last.fm"
+msgstr "Отправляйте прослушанные треки на Last.fm"
+
+msgid "Subtitle Defaults"
+msgstr "Субтитры по умолчанию"
+
+msgid "Subtitle delay: %1 s"
+msgstr "Задержка субтитров: %1 с."
+
+msgid "Subtitle Duration Factor"
+msgstr "Коэффициент продолжительности субтитров"
+
+msgid ""
+"Subtitle files can set their own style. Turn off Embedded Sub Format to use "
+"these settings for all text subtitles."
+msgstr ""
+"Файлы субтитров могут устанавливать свой собственный стиль. Отключите "
+"встроенный подформат, чтобы использовать эти настройки для всех текстовых "
+"субтитров."
+
+msgid "Subtitle Font"
+msgstr "Шрифт субтитров"
+
+msgid "Subtitle Offset"
+msgstr "Смещение субтитров"
+
+msgid "Subtitle Speed"
+msgstr "Скорость субтитров"
+
+msgid "Subtitle synchronization"
+msgstr "Синхронизация субтитров"
+
+msgid "Subtitle Track Delay"
+msgstr "Задержка дорожки субтитров"
+
+msgid "Subtitle tracks"
+msgstr "Дорожки с субтитрами"
+
+msgid "Switch Player"
+msgstr "Сменить игрока"
+
+msgid "Sync lyrics to playback"
+msgstr "Синхронизировать тексты песен с воспроизведением"
+
+msgid "Sync lyrics to playback position"
+msgstr "Синхронизировать тексты песен с позицией воспроизведения"
+
+msgid "System log facility"
+msgstr "Функция системного журнала"
+
+msgid "System log identity"
+msgstr "Идентификатор системного журнала"
+
+msgid "Target level"
+msgstr "Целевой уровень"
+
+msgid "Test the left and right audio channels"
+msgstr "Проверьте левый и правый аудиоканалы"
+
+msgid "Text color"
+msgstr "Цвет текста"
+
+msgid "Text encoding"
+msgstr "Кодировка текста"
+
+msgid "Text File"
+msgstr "Текстовый файл"
+
+msgid "Text Overlay"
+msgstr "Наложение текста"
+
+msgid "Text Seen"
+msgstr "Текст просмотрен"
+
+msgid "The files in this playlist are not available."
+msgstr "Файлы в этом плейлисте недоступны."
+
+msgid "Theme"
+msgstr "Тема"
+
+msgid "There are no media files here."
+msgstr "Здесь нет медиафайлов."
+
+msgid "These files will be added to the playlist."
+msgstr "Эти файлы будут добавлены в список воспроизведения."
+
+msgid ""
+"This action replaces all VLC settings with the default settings. Restart VLC"
+" after this action."
+msgstr ""
+"Это действие заменяет все настройки VLC настройками по умолчанию. "
+"Перезапустите VLC после этого действия."
+
+msgid ""
+"This app can use OpenSubtitles without a personal key. You can add your own "
+"application API key here. VLC stores it in your profile."
+msgstr ""
+"Это приложение может использовать OpenSubtitles без личного ключа. Здесь вы "
+"можете добавить свой собственный ключ API приложения. VLC сохраняет его в "
+"вашем профиле."
+
+msgid "This build has no media library. You can open files from the player."
+msgstr "В этой сборке нет медиатеки. Вы можете открывать файлы с плеера."
+
+msgid "This media has no chapters."
+msgstr "В этом СМИ нет разделов."
+
+msgid "This playlist has no files that VLC can use."
+msgstr "В этом плейлисте нет файлов, которые может использовать VLC."
+
+msgid "This playlist is empty."
+msgstr "Этот плейлист пуст."
+
+msgid "This subtitle track has no cue times."
+msgstr "Эта дорожка субтитров не имеет временных меток."
+
+msgid "This VLC build does not include Direct3D11 HDR output."
+msgstr "Эта сборка VLC не включает вывод Direct3D11 HDR."
+
+msgid ""
+"This VLC build has no media library. Open files or a folder to add them to "
+"the queue."
+msgstr ""
+"В этой сборке VLC нет медиатеки. Откройте файлы или папку, чтобы добавить их"
+" в очередь."
+
+msgid "Time-shift buffer folder"
+msgstr "Папка буфера со сдвигом во времени"
+
+msgid "Time-shift buffer size"
+msgstr "Размер буфера временного сдвига"
+
+msgid "Timing"
+msgstr "Тайминг"
+
+msgid "Title A-Z"
+msgstr "Название от А до Я"
+
+msgid "Title Z-A"
+msgstr "Название Z-A"
+
+msgid "To Folder"
+msgstr "В папку"
+
+msgid "Toggle lyrics view"
+msgstr "Переключить просмотр текстов песен"
+
+msgid "Toolbar Editor"
+msgstr "Редактор панели инструментов"
+
+msgid "To Playlist"
+msgstr "В плейлист"
+
+msgid "To This File"
+msgstr "В этот файл"
+
+msgid "Track list"
+msgstr "Список треков"
+
+msgid "Track Number Ascending"
+msgstr "Номер трека по возрастанию"
+
+msgid "Track Number Descending"
+msgstr "Номер трека по убыванию"
+
+msgid "Tracks Count"
+msgstr "Количество треков"
+
+msgid "Tracks & Languages"
+msgstr "Треки и языки"
+
+msgid "Tracks saved. Stop and play this file to use all changes."
+msgstr ""
+"Треки сохранены. Остановитесь и воспроизведите этот файл, чтобы использовать"
+" все изменения."
+
+msgid "Tuning"
+msgstr "Тюнинг"
+
+msgid "Two-pass"
+msgstr "Двухпроходной"
+
+msgid "Unavailable files"
+msgstr "Недоступные файлы"
+
+msgid "Uninstalling"
+msgstr "Удаление"
+
+msgid "Unknown artist"
+msgstr "Неизвестный художник"
+
+msgid "Unknown durations"
+msgstr "Неизвестная продолжительность"
+
+msgid "Unknown genre"
+msgstr "Неизвестный жанр"
+
+msgid "Unknown share"
+msgstr "Неизвестная доля"
+
+msgid "Unknown Share"
+msgstr "Неизвестная доля"
+
+msgid "Unknown title"
+msgstr "Неизвестное название"
+
+msgid "Unknown Title"
+msgstr "Неизвестное название"
+
+msgid "Unmute"
+msgstr "недовольство"
+
+msgid "Unwatched First"
+msgstr "Непросмотренный первым"
+
+msgid "URI Ascending"
+msgstr "URI по возрастанию"
+
+msgid "URI Descending"
+msgstr "URI по убыванию"
+
+msgid "Url"
+msgstr "URL"
+
+msgid "Use app key"
+msgstr "Использовать ключ приложения"
+
+msgid ""
+"Use Direct3D11 output for this setting. The mode applies when a video output"
+" starts. Unavailable formats are dimmed."
+msgstr ""
+"Для этого параметра используйте вывод Direct3D11. Этот режим применяется при"
+" запуске видеовыхода. Недоступные форматы затенены."
+
+msgid "Use regular expression"
+msgstr "Используйте регулярное выражение"
+
+msgid "Use the media library"
+msgstr "Используйте медиа-библиотеку"
+
+msgid "Use this language order"
+msgstr "Используйте этот порядок языков"
+
+msgid "Verify certificates against the system trust store"
+msgstr "Проверка сертификатов в системном хранилище доверенных сертификатов"
+
+msgid "Very large"
+msgstr "Очень большой"
+
+msgid "Very short skip"
+msgstr "Очень короткий пропуск"
+
+msgid "Very small"
+msgstr "Очень маленький"
+
+msgid "video content"
+msgstr "видеоконтент"
+
+msgid "Video Defaults"
+msgstr "Видео по умолчанию"
+
+msgid "Video files"
+msgstr "Видео файлы"
+
+msgid "Video post-processing"
+msgstr "Постобработка видео"
+
+msgid "Video Tracks"
+msgstr "Видео треки"
+
+msgid "Video view"
+msgstr "Просмотр видео"
+
+msgid "View Less"
+msgstr "Посмотреть меньше"
+
+msgid "View More"
+msgstr "Посмотреть больше"
+
+msgid "View options"
+msgstr "Посмотреть варианты"
+
+msgid "VLC cannot open the settings folder."
+msgstr "VLC не может открыть папку настроек."
+
+msgid "VLC cannot read these files. Try again."
+msgstr "VLC не может прочитать эти файлы. Попробуйте еще раз."
+
+msgid "VLC cannot read the times for this subtitle track."
+msgstr "VLC не может прочитать время для этой дорожки субтитров."
+
+msgid "VLC cannot read this folder. Check the folder and try again."
+msgstr ""
+"VLC не может прочитать эту папку. Проверьте папку и повторите попытку."
+
+msgid "VLC cannot read this folder. Try again."
+msgstr "VLC не может прочитать эту папку. Попробуйте еще раз."
+
+msgid "VLC cannot read this playlist. Select it again."
+msgstr "VLC не может прочитать этот плейлист. Выберите его еще раз."
+
+msgid "VLC cannot read this playlist. Try again."
+msgstr "VLC не может прочитать этот плейлист. Попробуйте еще раз."
+
+msgid "VLC cannot save these streams. Check the links and try again."
+msgstr ""
+"VLC не может сохранить эти потоки. Проверьте ссылки и попробуйте еще раз."
+
+msgid "VLC cannot save these tracks. Try again."
+msgstr "VLC не может сохранить эти треки. Попробуйте еще раз."
+
+msgid "VLC could not add this folder: %1"
+msgstr "VLC не удалось добавить эту папку: %1"
+
+msgid "VLC could not read these files. Try again."
+msgstr "VLC не смог прочитать эти файлы. Попробуйте еще раз."
+
+msgid "VLC could not save the API key. Check it and try again."
+msgstr ""
+"VLC не удалось сохранить ключ API. Проверьте это и попробуйте еще раз."
+
+msgid "VLC could not save this change. Check the key and try again."
+msgstr ""
+"VLC не удалось сохранить это изменение. Проверьте ключ и повторите попытку."
+
+msgid "VLC could not search for subtitles. Try again."
+msgstr "VLC не смог найти субтитры. Попробуйте еще раз."
+
+msgid ""
+"VLC does not collect personal data. If you allow online media information, "
+"VLC can request cover art and track details from online services. These "
+"requests can identify your media to those services. Clear the option to keep"
+" these requests off."
+msgstr ""
+"VLC не собирает персональные данные. Если вы разрешите информацию онлайн-"
+"медиа, VLC может запросить обложку и информацию о треке у онлайн-сервисов. "
+"Эти запросы могут идентифицировать ваши медиа для этих служб. Снимите "
+"флажок, чтобы отключить эти запросы."
+
+msgid "VLC has no saved playlists."
+msgstr "VLC не имеет сохраненных плейлистов."
+
+msgid ""
+"VLC is a free and open source media player.\\nPlay videos and music from "
+"files, discs, and network streams.\\nYou can change all settings later."
+msgstr ""
+"VLC — это бесплатный медиаплеер с открытым исходным кодом.\\nВоспроизводите "
+"видео и музыку из файлов, дисков и сетевых потоков.\\nВсе настройки можно "
+"изменить позже."
+
+msgid ""
+"VLC kept the changes that it saved. Try Save again for the other files."
+msgstr ""
+"VLC сохранил сохраненные изменения. Попробуйте сохранить еще раз для других "
+"файлов."
+
+msgid "VLC Media Player"
+msgstr "VLC Медиаплеер"
+
+msgid "VLC saved the default settings. Restart VLC to use all settings."
+msgstr ""
+"VLC сохранил настройки по умолчанию. Перезапустите VLC, чтобы использовать "
+"все настройки."
+
+msgid "VLC will also save the folder matches."
+msgstr "VLC также сохранит совпадения папок."
+
+msgid "VLC will remove the saved folder matches."
+msgstr "VLC удалит сохраненные совпадения папок."
+
+msgid "VLC will save these choices for the current files."
+msgstr "VLC сохранит эти варианты для текущих файлов."
+
+msgid "VLC will use these matches for new files in this folder."
+msgstr "VLC будет использовать эти совпадения для новых файлов в этой папке."
+
+msgid "Voice Heard"
+msgstr "Голос услышан"
+
+msgid "Volume %1%"
+msgstr "Объем %1%"
+
+msgid "Volume on the next VLC startup (0–300%)."
+msgstr "Громкость при следующем запуске VLC (0–300%)."
+
+msgid "Volume step"
+msgstr "Шаг громкости"
+
+msgid "Volume Widget"
+msgstr "Виджет громкости"
+
+msgid "Watched First"
+msgstr "Смотрел первым"
+
+msgid "Web remote control"
+msgstr "Веб-удаленное управление"
+
+msgid "Welcome to VLC!"
+msgstr "Добро пожаловать в ВЛК!"
+
+msgid "Welcome — VLC Media Player"
+msgstr "Добро пожаловать — VLC Media Player"
+
+msgid "When opening a folder"
+msgstr "При открытии папки"
+
+msgid "When playback finishes"
+msgstr "Когда воспроизведение закончится"
+
+msgid "WIDGET\\nNOT\\nFOUND"
+msgstr "ВИДЖЕТ\\nНЕ\\НАЙДЕН"
+
+msgid "Window opacity"
+msgstr "Непрозрачность окна"
+
+msgid "Window Size"
+msgstr "Размер окна"
+
+msgid "Write to the system log"
+msgstr "Запись в системный журнал"
+
+msgid "X Offset"
+msgstr "Смещение по оси X"
+
+msgid "Yellow key"
+msgstr "Желтый ключ"
+
+msgid "Y Offset"
+msgstr "Смещение по оси Y"
+
+msgid "You cannot change this playlist here."
+msgstr "Вы не можете изменить этот плейлист здесь."
+
+msgid "Zoom in on subtitle times"
+msgstr "Увеличьте время субтитров"
+
+msgid "Zoom out on subtitle times"
+msgstr "Уменьшить время субтитров"
+
+msgid "Zoom ratios use the video's actual pixel size."
+msgstr ""
+"Коэффициенты масштабирования используют фактический размер видео в пикселях."
+
 #~ msgid "Select \"Advanced Options\" to see all options."
 #~ msgstr "Нажмите «Дополнительные параметры», чтобы увидеть все опции."
 
