@@ -5,26 +5,6 @@
 
 **Перевод интерфейса на русский язык выполнен [code-warlord-dev](https://github.com/code-warlord-dev).**
 
-## ТЕСТ ЭМБЕДОВ
-
-Вариант A: raw + controls, без width
-
-<video src="https://raw.githubusercontent.com/code-warlord-dev/juxtopposed-vlc/master/doc/videos/demo-ru.mp4" controls></video>
-
-Вариант B: github.com/raw + controls, width числом
-
-<video src="https://github.com/code-warlord-dev/juxtopposed-vlc/raw/master/doc/videos/demo-ru.mp4" controls width="640"></video>
-
-Вариант C: raw + все автогифка-атрибуты
-
-<video src="https://raw.githubusercontent.com/code-warlord-dev/juxtopposed-vlc/master/doc/videos/demo-ru.mp4" autoplay loop muted playsinline width="640"></video>
-
-Вариант D: image-синтаксис на mp4
-
-![демо](doc/videos/demo-ru.mp4)
-
-КОНЕЦ ТЕСТА
-
 ## Демонстрация (русскоязычный интерфейс)
 
 <video src="https://raw.githubusercontent.com/code-warlord-dev/juxtopposed-vlc/master/doc/videos/demo-ru.mp4" controls width="100%"></video>
