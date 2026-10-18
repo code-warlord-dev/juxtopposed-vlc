@@ -7,7 +7,11 @@
 
 ## Демонстрация (русскоязычный интерфейс)
 
-[![Демо-видео русского интерфейса](doc/videos/demo-preview.gif)](https://github.com/code-warlord-dev/juxtopposed-vlc/blob/master/doc/videos/demo-ru.mp4)
+<p align="center">
+  <a href="https://github.com/code-warlord-dev/juxtopposed-vlc/blob/master/doc/videos/demo-ru.mp4">
+    <img src="doc/videos/demo-preview.gif" alt="Демо-видео русского интерфейса" width="100%">
+  </a>
+</p>
 
 ▶ **[Смотреть полное демо-видео (66 с, H.264/Opus, 4.2 МБ)](https://github.com/code-warlord-dev/juxtopposed-vlc/blob/master/doc/videos/demo-ru.mp4)** — на странице откроется встроенный плеер GitHub. Превью выше — зацикленный GIF (6 с), клик ведёт к MP4.
 
