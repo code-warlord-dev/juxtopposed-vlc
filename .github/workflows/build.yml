@@ -141,6 +141,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: registry.videolan.org/vlc-debian-win64-posix:20260611225331
+      options: -u root
     env:
       VLC_PREBUILT_CONTRIBS_URL: https://artifacts.videolan.org/vlc/win64/vlc-contrib-x86_64-w64-mingw32-7ee44ffc93821fee267b5d35fa2b1719bb790880.tar.zst
     timeout-minutes: 300
