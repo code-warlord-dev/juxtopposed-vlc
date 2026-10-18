@@ -7,9 +7,11 @@
 
 ## Демонстрация (русскоязычный интерфейс)
 
-<video src="https://raw.githubusercontent.com/code-warlord-dev/juxtopposed-vlc/master/doc/videos/demo-ru.mp4" controls width="100%"></video>
+[![Демо-видео русского интерфейса](doc/videos/demo-preview.gif)](https://github.com/code-warlord-dev/juxtopposed-vlc/blob/master/doc/videos/demo-ru.mp4)
 
-*Демо: полностью русский интерфейс Juxtopposed VLC ([скачать MP4](doc/videos/demo-ru.mp4))*
+▶ **[Смотреть полное демо-видео (66 с, H.264/Opus, 4.2 МБ)](https://github.com/code-warlord-dev/juxtopposed-vlc/blob/master/doc/videos/demo-ru.mp4)** — на странице откроется встроенный плеер GitHub. Превью выше — зацикленный GIF (6 с), клик ведёт к MP4.
+
+*Примечание: GitHub санитайзер удаляет тег `<video>` из README репозиториев (проверено эмпирически — 4 варианта эмбеда вырезаются), поэтому здесь GIF-превью + ссылка на blob-страницу с плеером.*
 
 ![Простой проигрыватель с видео pixel-cat](doc/images/redesign/player.png)
 
