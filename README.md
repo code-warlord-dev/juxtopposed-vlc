@@ -7,7 +7,9 @@
 
 ## Демонстрация (русскоязычный интерфейс)
 
-▶ [Смотреть демо-видео (66 с, MP4)](doc/videos/demo-ru.mp4)
+<video src="https://raw.githubusercontent.com/code-warlord-dev/juxtopposed-vlc/master/doc/videos/demo-ru.mp4" controls width="100%"></video>
+
+*Демо: полностью русский интерфейс Juxtopposed VLC ([скачать MP4](doc/videos/demo-ru.mp4))*
 
 ![Простой проигрыватель с видео pixel-cat](doc/images/redesign/player.png)
 
