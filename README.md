@@ -1,68 +1,109 @@
-# VLC media player
+# VLC media player (Juxtopposed, русская версия)
 
-This fork adapts [Juxtopposed’s VLC redesign](https://www.figma.com/community/file/1691465999134370980/vlc-redesign)
-for VLC’s native interface. The interface and settings workflow are in active development.
-See the [Releases page](https://github.com/dsojevic/juxtopposed-vlc/releases) for Windows beta builds.
+Этот форк адаптирует [редизайн VLC от Juxtopposed](https://www.figma.com/community/file/1691465999134370980/vlc-redesign)
+для нативного интерфейса VLC. Интерфейс и настройки находятся в активной разработке.
 
-![Simple player with the pixel-cat video](doc/images/redesign/player.png)
+**Перевод интерфейса на русский язык выполнен [code-warlord-dev](https://github.com/code-warlord-dev).**
 
-| Library sidebar | Video settings |
+## Демонстрация (русскоязычный интерфейс)
+
+▶ [Смотреть демо-видео (66 с, MP4)](doc/videos/demo-ru.mp4)
+
+![Простой проигрыватель с видео pixel-cat](doc/images/redesign/player.png)
+
+| Библиотека слева | Настройки видео |
 | --- | --- |
-| ![Library sidebar over the video](doc/images/redesign/sidebar.png) | ![Video settings over the video](doc/images/redesign/video-settings.png) |
+| ![Библиотека слева поверх видео](doc/images/redesign/sidebar.png) | ![Настройки видео поверх видео](doc/images/redesign/video-settings.png) |
 
-**VLC** is a libre and open source **media player** and **multimedia engine**,
-focused on **playing everything**, and **running everywhere**.
+**VLC** — это свободный и открытый **музыкально-видеопроигрыватель** и **мультимедийный движок**,
+который сосредоточен на **воспроизведении всего** и **работе везде**.
 
-**VLC** can play most multimedia files, discs, streams, devices and is also able to
-convert, encode, **stream** and manipulate streams into numerous formats.
+**VLC** может воспроизводить большинство мультимедийных файлов, дисков, потоков и устройств, а также
+конвертировать, кодировать, **стримить** и обрабатывать потоки в многочисленных форматах.
 
-VLC is used by many over the world, on numerous platforms, for very different use cases.
+VLC используется многими людьми по всему миру, на многочисленных платформах и для самых разных задач.
 
-The **engine of VLC** can be embedded into 3rd party applications, and is called *libVLC*.
+**Движок VLC** может быть встроен в сторонние приложения и называется *libVLC*.
 
-**VLC** is part of the [VideoLAN project](https://videolan.org) and
-is developed and supported by a community of volunteers.
+**VLC** является частью [проекта VideoLAN](https://videolan.org) и
+разрабатывается и поддерживается сообществом добровольцев.
 
-The VideoLAN project was started at the university [École Centrale Paris](https://www.centralesupelec.fr/) who
-relicensed VLC under the GPLv2 license in February 2001. Since then, VLC has
-been downloaded **billions** of times.
+Проект VideoLAN был начат в университете [École Centrale Paris](https://www.centralesupelec.fr/), который
+переиздал VLC под лицензией GPLv2 в феврале 2001 года. С тех пор VLC был скачан
+**миллиарды** раз.
 
-## License
+## Установка
 
-**VLC** is released under the GPLv2 *(or later)* license.
-*On some platforms, it is de facto GPLv3, because of the licenses of dependencies*.
+Готовые пакеты доступны на [странице релизов](https://github.com/code-warlord-dev/juxtopposed-vlc/releases):
 
-**libVLC**, the engine is released under the LGPLv2 *(or later)* license. \
-This allows embedding the engine in 3rd party applications, while letting them to be licensed under other licenses.
+- **AppImage** (универсальный для любых дистрибутивов Linux)
+- **deb** (Debian, Ubuntu и производные)
+- **rpm** (Fedora, RHEL, openSUSE и производные)
+- **pkg.tar.zst** (Arch Linux, CachyOS и производные)
 
-## Redesign attribution
+### Arch Linux / CachyOS
+```bash
+sudo pacman -U juxtopposed-vlc-*.pkg.tar.zst
+```
 
-The redesigned interface on `master` is adapted from **VLC Redesign**
-by [Juxtopposed](https://www.juxtopposed.com/), licensed under
+### Debian / Ubuntu
+```bash
+sudo apt install ./juxtopposed-vlc_*.deb
+```
+
+### Fedora / RHEL
+```bash
+sudo rpm -i juxtopposed-vlc-*.rpm
+```
+
+### AppImage
+```bash
+chmod +x JuxtopposedVLC-*.AppImage
+./JuxtopposedVLC-*.AppImage
+```
+
+### Сборка из исходников
+```bash
+meson setup build --prefix=/usr -Dtests=disabled
+ninja -C build
+sudo ninja -C build install
+```
+
+## Лицензия
+
+**VLC** распространяется под лицензией GPLv2 *(или более новой)*.
+*На некоторых платформах де-факто используется GPLv3 из-за лицензий зависимостей*.
+
+**libVLC**, движок, распространяется под лицензией LGPLv2 *(или более новой)*.
+Это позволяет встраивать движок в сторонние приложения, оставляя их под другими лицензиями.
+
+## Атрибуция редизайна
+
+Интерфейс в `master` адаптирован из **VLC Redesign**
+авторства [Juxtopposed](https://www.juxtopposed.com/) и распространяется по лицензии
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-The original design is available on
+Оригинальный дизайн доступен в
 [Figma Community](https://www.figma.com/community/file/1691465999134370980/vlc-redesign),
-with a [video walkthrough](https://www.youtube.com/watch?v=ERFeOgqk324).
+там же есть [видеообзор](https://www.youtube.com/watch?v=ERFeOgqk324).
 
-This implementation modifies the design for VLC's native interface, including
-responsive layouts, interactive controls, settings organization, and integration
-with VLC's playback and media library features. The design credit and CC BY 4.0
-notice apply to the original design; VLC's software licenses remain as described
-above.
+Эта реализация модифицирует дизайн для нативного интерфейса VLC, включая
+адаптивные компоновки, интерактивные элементы управления, организацию настроек и интеграцию
+с воспроизведением и медиатекой VLC. Заслуга за дизайн и уведомление CC BY 4.0
+относятся к оригинальному дизайну; лицензии VLC остаются описанными выше.
 
-The interface uses [Inter](https://rsms.me/inter/) by Rasmus Andersson and contributors.
-The bundled fonts use the [SIL Open Font License 1.1](modules/gui/qt/fonts/LICENSE.txt).
+Интерфейс использует [Inter](https://rsms.me/inter/) Рамуса Андерссона и контрибьюторов.
+Встроенные шрифты распространяются по лицензии [SIL Open Font License 1.1](modules/gui/qt/fonts/LICENSE.txt).
 
-# Platforms
+# Платформы
 
-VLC is available for the following platforms:
-- [Windows] *(from 7 and later, including UWP platforms and all versions of Windows 10)*
-- [macOS] *(10.10 and later)*
-- [GNU/Linux] and affiliated
-- [BSD] and affiliated
-- [Android] *(4.2 and later)*, including Android TV and Android Auto
-- [iOS] *(9 and later)*, including AppleTV and iPadOS
-- Haiku, OS/2 and a few others.
+VLC доступен для следующих платформ:
+- [Windows] *(с 7 и далее, включая UWP и все версии Windows 10)*
+- [macOS] *(10.10 и далее)*
+- [GNU/Linux] и производные
+- [BSD] и производные
+- [Android] *(4.2 и далее)*, включая Android TV и Android Auto
+- [iOS] *(9 и далее)*, включая AppleTV и iPadOS
+- Haiku, OS/2 и некоторые другие.
 
 [Windows]: https://www.videolan.org/vlc/download-windows.html
 [macOS]: https://www.videolan.org/vlc/download-macosx.html
@@ -71,98 +112,97 @@ VLC is available for the following platforms:
 [Android]: https://www.videolan.org/vlc/download-android.html
 [iOS]: https://www.videolan.org/vlc/download-ios.html
 
-Not all platforms receive the same amount of care, due to our limited resources.
+Не все платформы получают одинаковое внимание из-за ограниченных ресурсов.
 
-**Nota Bene**: The [Android app](https://code.videolan.org/videolan/vlc-android/) and
-the [iOS app](https://code.videolan.org/videolan/vlc-ios/) are located in different repositories
-than the main one.
+**Примечание**: приложения [Android](https://code.videolan.org/videolan/vlc-android/) и
+[iOS](https://code.videolan.org/videolan/vlc-ios/) находятся в других репозиториях,
+а не в основном.
 
-# Contributing & Community
+# Участие в разработке и сообщество
 
-**VLC** is maintained by a community of people, and VideoLAN is not paying any of them.\
-The community is composed of developers, helpers, maintainers, designers and writers that want
-this open source project to thrive.
+**VLC** поддерживается сообществом людей, и VideoLAN никому за это не платит.
+Сообщество состоит из разработчиков, помощников, мейнтейнеров, дизайнеров и писателей,
+которые хотят, чтобы этот проект с открытым исходным кодом процветал.
 
-The main development of VLC is done in the C language, but this repository also contains
-plenty of C++, Obj-C, asm and Rust.
+Основная разработка VLC ведётся на языке C, но в этом репозитории также много
+C++, Obj-C, asm и Rust.
 
-Other repositories linked to vlc are done in languages including Kotlin/Java [(Android)](https://code.videolan.org/videolan/vlc-android/),
-Swift [(iOS)](https://code.videolan.org/videolan/vlc-ios/), and C# [(libVLCSharp)](https://code.videolan.org/videolan/libvlcsharp/).
+Другие репозитории, связанные с VLC, написаны на таких языках, как Kotlin/Java [(Android)](https://code.videolan.org/videolan/vlc-android/),
+Swift [(iOS)](https://code.videolan.org/videolan/vlc-ios/) и C# [(libVLCSharp)](https://code.videolan.org/videolan/libvlcsharp/).
 
-We need help with the following tasks:
-- Coding
-- Packaging for Windows, macOS and Linux distributions
-- Technical writing for the documentation
-- Design
-- Support
-- Community management and communication.
+Нам нужна помощь в следующем:
+- Кодирование
+- Упаковка для Windows, macOS и дистрибутивов Linux
+- Техническое писательство для документации
+- Дизайн
+- Поддержка
+- Управление сообществом и коммуникация.
 
-Please contribute :)
+Пожалуйста, участвуйте :)
 
-We are on IRC. You can find us on the **#videolan** channel on *[Libera.chat]*.
+Мы в IRC. Нас можно найти в канале **#videolan** на *[Libera.chat]*.
 
 [Libera.chat]: https://libera.chat
 
-## Contributions
+## Вклад
 
-Contributions are now done through Merge Requests on our [GitLab repository](https://code.videolan.org/videolan/vlc/).
+Вклад вносится через Merge Requests в нашем [репозитории GitLab](https://code.videolan.org/videolan/vlc/).
 
-CI and discussions should be resolved before a Merge Request can be merged.
+CI и обсуждения должны быть завершены, прежде чем Merge Request сможет быть принят.
 
 # libVLC
 
-**libVLC** is an embeddable engine for 3rd party applications and frameworks.
+**libVLC** — это встраиваемый движок для сторонних приложений и фреймворков.
 
-It runs on the same platforms as VLC *(and sometimes on more)* and can provide playback,
-streaming and conversion of multimedia files and streams.
+Он работает на тех же платформах, что и VLC *(иногда и на больших)* и может обеспечивать
+воспроизведение, стриминг и конвертацию мультимедийных файлов и потоков.
 
+У **libVLC** есть многочисленные привязки для других языков, таких как C++, Python и C#.
 
-**libVLC** has numerous bindings for other languages, such as C++, Python and C#.
+# Поддержка
 
-# Support
+## Ссылки
 
-## Links
+Несколько полезных ссылок, которые могут помочь:
 
-Some useful links that might help you:
-
-- [VLC web site](https://www.videolan.org/vlc/)
-- [Support](https://www.videolan.org/support/)
-- [Forums](https://forum.videolan.org/)
+- [Веб-сайт VLC](https://www.videolan.org/vlc/)
+- [Поддержка](https://www.videolan.org/support/)
+- [Форумы](https://forum.videolan.org/)
 - [Wiki](https://wiki.videolan.org/)
-- [Developer's Corner](https://wiki.videolan.org/Developers_Corner)
-- [VLC hacking guide](https://wiki.videolan.org/Hacker_Guide)
-- [Bugtracker](https://code.videolan.org/videolan/vlc/-/issues)
-- [VideoLAN web site](https://www.videolan.org/)
+- [Раздел для разработчиков](https://wiki.videolan.org/Developers_Corner)
+- [Гайд по изучению VLC](https://wiki.videolan.org/Hacker_Guide)
+- [Багтрекер](https://code.videolan.org/videolan/vlc/-/issues)
+- [Веб-сайт VideoLAN](https://www.videolan.org/)
 
-## Source Code sitemap
+## Карта каталогов исходного кода
 ```
-ABOUT-NLS          - Notes on the Free Translation Project.
-AUTHORS            - VLC authors.
-COPYING            - The GPL license.
-COPYING.LIB        - The LGPL license.
-INSTALL            - Installation and building instructions.
-NEWS               - Important modifications between the releases.
-README             - Project summary.
-THANKS             - VLC contributors.
+ABOUT-NLS          - Заметки о Free Translation Project.
+AUTHORS            - Авторы VLC.
+COPYING            - Лицензия GPL.
+COPYING.LIB        - Лицензия LGPL.
+INSTALL            - Инструкции по сборке и установке.
+NEWS               - Важные изменения между релизами.
+README             - Описание проекта.
+THANKS             - Благодарности контрибьюторам VLC.
 
-bin/               - VLC binaries.
-bindings/          - libVLC bindings to other languages.
-compat/            - compatibility library for operating systems missing
-                     essential functionalities.
-contrib/           - Facilities for retrieving external libraries and building
-                     them for systems that don't have the right versions.
-doc/               - Miscellaneous documentation.
-extras/analyser    - Code analyser and editor specific files.
-extras/buildsystem - Different build system specific files.
-extras/misc        - Files that don't fit in the other extras/ categories.
-extras/package     - VLC packaging specific files such as spec files.
-extras/tools/      - Facilities for retrieving external building tools needed
-                     for systems that don't have the right versions.
-include/           - Header files.
-lib/               - libVLC source code.
-modules/           - VLC plugins and modules. Most of the code is here.
-po/                - VLC translations.
-share/             - Common resource files.
-src/               - libvlccore source code.
-test/              - Testing system.
+bin/               - Бинарники VLC.
+bindings/          - Привязки libVLC к другим языкам.
+compat/            - библиотека совместимости для операционных систем,
+                     в которых отсутствуют необходимые функции.
+contrib/           - Инструменты для получения внешних библиотек и их сборки
+                     для систем, у которых нет нужных версий.
+doc/               - Различная документация.
+extras/analyser    - Специфичные для код-анализатора файлы.
+extras/buildsystem - Различные файлы для сборки.
+extras/misc        - Файлы, которые не вписываются в другие категории extras/.
+extras/package     - Файлы упаковки VLC, например spec-файлы.
+extras/tools/      - Инструменты для получения внешних инструментов сборки
+                     для систем, у которых нет нужных версий.
+include/           - Заголовочные файлы.
+lib/               - Исходный код libVLC.
+modules/           - Плагины и модули VLC. Здесь большая часть кода.
+po/                - Переводы VLC.
+share/             - Общие ресурсные файлы.
+src/               - Исходный код libvlccore.
+test/              - Тестовая система.
 ```

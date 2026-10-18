@@ -13,20 +13,28 @@ sha256sums=('SKIP')
 
 build() {
   cd "$srcdir/juxtopposed-vlc"
-  meson setup build --prefix=/usr -Dtests=disabled
+  meson setup build --prefix=/usr -Dtests=disabled -Dprojectm=disabled
   ninja -C build
 }
 
 package() {
   cd "$srcdir/juxtopposed-vlc"
   DESTDIR="$pkgdir" ninja -C build install
-  # Desktop entry
+  # Иконка
+  install -Dm644 share/icons/256x256/vlc.png \
+    "$pkgdir/usr/share/icons/hicolor/256x256/apps/vlc.png"
+  # Desktop entry (русский интерфейс)
   install -Dm644 /dev/stdin "$pkgdir/usr/share/applications/juxtopposed-vlc.desktop" <<EOF
 [Desktop Entry]
-Name=VLC media player (Juxtopposed)
-Exec=/usr/bin/vlc %U
+Name=Медиапроигрыватель VLC (Juxtopposed)
+GenericName=Медиапроигрыватель
+Comment=Читает, записывает и транслирует мультимедиа
+Exec=env LC_MESSAGES=ru_UA.UTF-8 /usr/bin/vlc %U
+TryExec=/usr/bin/vlc
 Icon=vlc
+Terminal=false
 Type=Application
 Categories=AudioVideo;Player;
+StartupWMClass=vlc
 EOF
 }

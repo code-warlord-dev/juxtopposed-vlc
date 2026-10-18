@@ -14,15 +14,15 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y meson ninja-build gcc pkg-config git \
-            libvlc-dev libvlccore-dev libavcodec-dev libavformat-dev \
+            libavcodec-dev libavformat-dev \
             libswscale-dev libpostproc-dev libfreetype6-dev libfribidi-dev \
             libfontconfig1-dev libxcb1-dev libx11-dev libgl1-mesa-dev \
             libvulkan-dev libva-dev libdrm-dev libarchive-dev liblua5.2-dev \
             libupnp-dev libudev-dev libchromaprint-dev protobuf-compiler \
             libprotobuf-dev libmicrodns-dev libaribb25-dev libass-dev \
-            libharfbuzz-dev libfribidi-dev libxml2-dev libsqlite3-dev \
+            libharfbuzz-dev libxml2-dev libsqlite3-dev \
             libtag1-dev libsecret-1-dev libnotify-dev libqt6-dev \
-            dpkg-dev rpm fuse libfuse2 wget zstd
+            dpkg-dev rpm fuse libfuse2 wget zstd gettext
       - name: Build
         run: |
           meson setup build --prefix=/usr -Dtests=disabled
@@ -32,15 +32,31 @@ jobs:
       - name: Build deb
         run: |
           mkdir -p staging/DEBIAN
-          cat > staging/DEBIAN/control <<EOF
-Package: juxtopposed-vlc
-Version: 4.0.0
-Section: video
-Priority: optional
-Architecture: amd64
-Maintainer: code_warlord <code_warlord@proton.me>
-Description: VLC media player with Juxtopposed redesign (Russian UI)
-EOF
+          cat > staging/DEBIAN/control <<'CTRL'
+          Package: juxtopposed-vlc
+          Version: 4.0.0
+          Section: video
+          Priority: optional
+          Architecture: amd64
+          Maintainer: code_warlord <code_warlord@proton.me>
+          Description: VLC media player with Juxtopposed redesign (Russian UI)
+          CTRL
+          sed -i 's/^          //' staging/DEBIAN/control
+          mkdir -p staging/usr/share/applications
+          cat > staging/usr/share/applications/juxtopposed-vlc.desktop <<'DESK'
+          [Desktop Entry]
+          Name=Медиапроигрыватель VLC (Juxtopposed)
+          GenericName=Медиапроигрыватель
+          Comment=Читает, записывает и транслирует мультимедиа
+          Exec=env LC_MESSAGES=ru_UA.UTF-8 /usr/bin/vlc %U
+          TryExec=/usr/bin/vlc
+          Icon=vlc
+          Terminal=false
+          Type=Application
+          Categories=AudioVideo;Player;
+          StartupWMClass=vlc
+          DESK
+          sed -i 's/^          //' staging/usr/share/applications/juxtopposed-vlc.desktop
           dpkg-deb --build staging juxtopposed-vlc_4.0.0_amd64.deb
       - name: Build AppImage
         run: |
@@ -50,21 +66,23 @@ EOF
           rm -rf $APPDIR
           mkdir -p $APPDIR/usr
           cp -a staging/usr/. $APPDIR/usr/
-          cat > $APPDIR/AppRun <<'EOF'
-#!/bin/bash
-HERE="$(dirname "$(readlink -f "${0}")")"
-export LD_LIBRARY_PATH="$HERE/usr/lib:$HERE/usr/lib/vlc:${LD_LIBRARY_PATH}"
-exec "$HERE/usr/bin/vlc" "$@"
-EOF
+          cat > $APPDIR/AppRun <<'ARRUN'
+          #!/bin/bash
+          HERE="$(dirname "$(readlink -f "${0}")")"
+          export LD_LIBRARY_PATH="$HERE/usr/lib:$HERE/usr/lib/vlc:${LD_LIBRARY_PATH}"
+          exec "$HERE/usr/bin/vlc" "$@"
+          ARRUN
+          sed -i 's/^          //' $APPDIR/AppRun
           chmod +x $APPDIR/AppRun
-          cat > $APPDIR/juxtopposed-vlc.desktop <<'EOF'
-[Desktop Entry]
-Name=VLC media player (Juxtopposed)
-Exec=vlc %U
-Icon=vlc
-Type=Application
-Categories=AudioVideo;Player;
-EOF
+          cat > $APPDIR/juxtopposed-vlc.desktop <<'DESK'
+          [Desktop Entry]
+          Name=Медиапроигрыватель VLC (Juxtopposed)
+          Exec=vlc %U
+          Icon=vlc
+          Type=Application
+          Categories=AudioVideo;Player;
+          DESK
+          sed -i 's/^          //' $APPDIR/juxtopposed-vlc.desktop
           cp $APPDIR/juxtopposed-vlc.desktop $APPDIR/usr/share/applications/ 2>/dev/null || true
           /tmp/appimagetool $APPDIR /tmp/JuxtopposedVLC-x86_64.AppImage
       - name: Upload artifacts
@@ -83,13 +101,13 @@ EOF
       - name: Install dependencies
         run: |
           dnf install -y meson ninja-build gcc pkgconfig git \
-            vlc-devel ffmpeg-devel freetype-devel fribidi-devel \
+            ffmpeg-devel freetype-devel fribidi-devel \
             fontconfig-devel libxcb-devel libX11-devel mesa-libGL-devel \
             vulkan-devel libva-devel libdrm-devel libarchive-devel lua-devel \
             libupnp-devel systemd-devel chromaprint-devel protobuf-devel \
             libmicrodns-devel aribb25-devel libass-devel harfbuzz-devel \
             libxml2-devel sqlite-devel taglib-devel libsecret-devel \
-            libnotify-devel qt6-qtbase-devel rpm-build
+            libnotify-devel qt6-qtbase-devel rpm-build gettext
       - name: Build
         run: |
           meson setup build --prefix=/usr -Dtests=disabled
@@ -99,7 +117,7 @@ EOF
       - name: Build rpm
         run: |
           mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
-          tar czf ~/rpmbuild/SOURCES/juxtopposed-vlc-4.0.0.tar.gz .
+          tar czf ~/rpmbuild/SOURCES/juxtopposed-vlc-4.0.0.tar.gz staging
           cp packaging/rpm/juxtopposed-vlc.spec ~/rpmbuild/SPECS/
           rpmbuild -bb ~/rpmbuild/SPECS/juxtopposed-vlc.spec
       - name: Upload artifacts
@@ -107,4 +125,45 @@ EOF
         with:
           name: rpm-package
           path: ~/rpmbuild/RPMS/**/*.rpm
-EOF
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: [build-deb-appimage, build-rpm]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: VLC (Juxtopposed) 4.0.0 — русская версия
+          body: |
+            Медиапроигрыватель VLC 4.0.0 с редизайном Juxtopposed и **полностью русским интерфейсом** (100% перевод, 7384 сообщения).
+
+            **Перевод интерфейса на русский язык выполнен [code-warlord-dev](https://github.com/code-warlord-dev).**
+
+            ### Пакеты
+            | Файл | Для чего |
+            | --- | --- |
+            | `JuxtopposedVLC-x86_64.AppImage` | любой дистрибутив Linux |
+            | `juxtopposed-vlc_4.0.0_amd64.deb` | Debian, Ubuntu и производные |
+            | `juxtopposed-vlc-4.0.0-1.x86_64.rpm` | Fedora, RHEL, openSUSE |
+            | `juxtopposed-vlc-4.0.0-1-x86_64.pkg.tar.zst` | Arch Linux, CachyOS |
+
+            ### Установка
+            ```bash
+            # Arch / CachyOS
+            sudo pacman -U juxtopposed-vlc-*.pkg.tar.zst
+            # Debian / Ubuntu
+            sudo apt install ./juxtopposed-vlc_*.deb
+            # Fedora
+            sudo rpm -i juxtopposed-vlc-*.rpm
+            # AppImage
+            chmod +x JuxtopposedVLC-*.AppImage && ./JuxtopposedVLC-*.AppImage
+            ```
+          files: dist/*
