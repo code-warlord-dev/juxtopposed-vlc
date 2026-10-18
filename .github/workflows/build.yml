@@ -126,8 +126,61 @@ jobs:
           name: rpm-package
           path: ~/rpmbuild/RPMS/**/*.rpm
 
+  build-win64:
+    name: Build Windows x86_64
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    container:
+      image: registry.videolan.org/vlc-debian-win64-posix:20260611225331
+    env:
+      VLC_PREBUILT_CONTRIBS_URL: https://artifacts.videolan.org/vlc/win64/vlc-contrib-x86_64-w64-mingw32-7ee44ffc93821fee267b5d35fa2b1719bb790880.tar.zst
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure git
+        run: git config --global --add safe.directory '*'
+      - name: Build
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          extras/package/win32/build.sh -a x86_64 -p -l -m
+      - name: Package zip archive
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          ls win64-meson/
+          7z a -tzip -mx=9 vlc-juxtopposed-4.0.0-win64.zip win64-meson/vlc-win64
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: win64
+          path: vlc-juxtopposed-4.0.0-win64.zip
+
+  build-macos:
+    name: Build macOS x86_64
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: macos-13
+    env:
+      VLC_PREBUILT_CONTRIBS_URL: https://artifacts.videolan.org/vlc/macos-x86_64/vlc-contrib-x86_64-apple-darwin19-c4e7f2201a42fa886ee3748f8acad6f639161afd.tar.zst
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          brew install ninja meson cmake pkg-config autoconf automake libtool \
+            gettext protobuf gnu-sed coreutils
+          pip3 install mako || true
+      - name: Build
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          ./extras/package/macosx/build.sh -a x86_64 -p -i z
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-x86_64
+          path: vlc-*.zip
+
   release:
     if: startsWith(github.ref, 'refs/tags/')
+
     needs: [build-deb-appimage, build-rpm]
     runs-on: ubuntu-latest
     permissions:
